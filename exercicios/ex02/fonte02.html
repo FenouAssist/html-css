@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes Externas</title>
+    <style>
+        @font-face {
+            font-family: 'Caviar';
+            src: url('CaviarDreams.ttf') format('truetype');
+            font-family: 'CaviarBold';
+            src: url('CaviarDreams_Bold.ttf') format('truetype');
+            font-weight: bolder;
+            font-style: normal;
+
+            /* Tipos de format()
+                - opentype
+                truetype
+                - embedded-opentype
+                - truetype-aat(Apple Advanced Typography)
+                - svg
+
+            */
+        }
+        body {
+            font-family: 'Caviar' Arial, Helvetica, sans-serif;
+        }
+
+        h1 {
+            font-family: 'CaviarBold' 'Times New Roman', Times, serif;
+        }
+                
+    </style>
+</head>
+<body>
+    <h1>Título</h1>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Labore reprehenderit soluta possimus rerum. Dicta voluptates impedit ducimus totam? Temporibus ipsum id architecto dicta beatae ab dolorum eius esse obcaecati. Iusto.</p>
+</body>
+</html>
